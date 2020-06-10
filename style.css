@@ -1,0 +1,107 @@
+h1{
+    text-align:center;
+    color: #8b0000;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2em;
+  }
+  
+  #welcome-section {
+    background-color: #E8E8E8;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width:100%;
+    border:groove 5px #8b0000;
+  
+    padding-top: 0px;
+    margin-top: 0px;
+    display: table;
+    height: 100vh;
+    
+  }
+  
+  .project-tile{
+    background-color:	#990000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: groove 5px #40E0D0;
+  
+    
+    padding-top: 0px;
+    margin-top: 0px;
+    display: table;
+    height: 100vh;
+  
+  }
+  
+  
+  #fcc{
+    font-size:2em;
+    text-align:center;
+    color: black;
+  }
+  
+  #fcc a{
+    color:black;
+    border: solid;
+  }
+  table{
+    width:100%;
+    margin-top:20px;
+  }
+  
+  #tableau th {
+    width:10%;
+    margin-right:10px;
+    font-size:1.5em;
+  }
+  
+  #navbar a {
+    color:gray;
+  
+  }
+  a {
+      text-decoration: none;
+  }
+   #navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align:center;
+  }
+  
+  #tableProjet{
+    width: 50%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #tableProjet td{
+    font-size: 2em;
+    padding: 5%;
+    text-align: center;
+  }
+  
+  .project-tile a{
+      color: #E8E8E8;
+  
+  }
+  
+  .project-tile h2 {
+    color: #E8E8E8;
+    margin-left: 10px;
+  }
+  
+  td{
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .project-tile h2{
+      text-align: center;
+    }
+  }
