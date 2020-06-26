@@ -3,7 +3,13 @@ h1{
   color: #8b0000;
   display: table-cell;
   vertical-align: middle;
-  font-size: 2em;
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+h2{
+  text-transform: uppercase ;
+  text-decoration: underline;
 }
 
 #cont {
@@ -13,26 +19,42 @@ h1{
 }
 #welcome-section {
   background-color: #E8E8E8;
-
   width:100%;
   border:groove 5px #8b0000;
-
   display: table;
   height: 100vh;
   vertical-align: middle;
-
 }
 
 a {
     text-decoration: none;
     color: black;
-
 }
 
 ul {
   list-style: none;
 }
 
-p {
-  text-align: left;
+.menunav {
+  overflow: hidden;
+  padding-top: 0.5%;
+  overflow: hidden;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  text-align:center;
+  right: 10px;
 }
+
+.menunav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menunav a:hover {
+  background-color: #ddd;
+}
+
